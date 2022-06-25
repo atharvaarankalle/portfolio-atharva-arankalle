@@ -1,11 +1,22 @@
-import logo from './logo.svg';
 import './App.css';
+import Header from './Components/Header/Header';
+import Nav from './Components/FloatingNav/FloatingNav';
+import About from './Components/About/About';
+import Experience from './Components/Experience/Experience';
+import Contact from './Components/Contact/Contact';
+import Footer from './Components/Footer/Footer';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <Header />
       </header>
+      <Nav />
+      <About />
+      <Experience />
+      <Contact />
+      <Footer />
     </div>
   );
 }
