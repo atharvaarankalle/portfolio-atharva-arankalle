@@ -6,7 +6,7 @@ import { useState } from 'react';
 const FloatingNav = () => {
   const [activeNav, setActiveNav] = useState('#');
   return (
-    <nav>
+    <nav className='floating-nav'>
       <a href="#" onClick={() => setActiveNav('#')} className={activeNav === '#' ? 'active' : ''}><AiOutlineHome /></a>
       <a href="#About" onClick={() => setActiveNav('#About')} className={activeNav === '#About' ? 'active' : ''}><AiOutlineUser /></a>
       <a href="#Experience" onClick={() => setActiveNav('#Experience')} className={activeNav === '#Experience' ? 'active' : ''}><AiOutlineBook /></a>

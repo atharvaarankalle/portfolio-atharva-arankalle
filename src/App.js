@@ -1,6 +1,7 @@
 import './App.css';
 import Header from './Components/Header/Header';
-import Nav from './Components/FloatingNav/FloatingNav';
+import Nav from './Components/Nav/Nav';
+import FloatingNav from './Components/FloatingNav/FloatingNav';
 import About from './Components/About/About';
 import Experience from './Components/Experience/Experience';
 import Contact from './Components/Contact/Contact';
@@ -13,6 +14,7 @@ function App() {
         <Header />
       </header>
       <Nav />
+      <FloatingNav />
       <About />
       <Experience />
       <Contact />
