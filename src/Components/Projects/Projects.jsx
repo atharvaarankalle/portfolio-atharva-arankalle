@@ -8,21 +8,15 @@ const Projects = () => {
         <div className="container projects__container">
             <article className="projects__item">
                 <div className="projects__header">
-                    <h2>Title</h2>
-                    <div className="projects__button">
-                        <a href="https://github.com" className="btn" target="_blank">GitHub</a>
-                    </div>
-                    <small>Date</small>
+                <h2><a href="https://github.com" target="_blank">Portfolio</a></h2>
+                    <small>July 2022</small>
                 </div>
                 <small>Description</small>
             </article>
             <article className="projects__item">
                 <div className="projects__header">
-                    <h2>Title</h2>
-                    <div className="projects__button">
-                        <a href="https://github.com" className="btn" target="_blank">GitHub</a>
-                    </div>
-                    <small>Date</small>
+                    <h2><a href="https://github.com" target="_blank">MERN Todo App</a></h2>
+                    <small>July 2022</small>
                 </div>
                 <small>Description</small>
             </article>

@@ -19,12 +19,23 @@
 
 .projects__header {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 13rem;
+    grid-template-columns: repeat(2, 1fr);
     align-items: center;
+    gap: 17rem;
     margin-bottom: 2rem;
 }
 
 .projects__header h2 {
     text-align: left;
 }
+
+.projects__header a {
+    color: #fff;
+    text-decoration: underline;
+}
+
+/* .projects__chips {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: right;
+} */
